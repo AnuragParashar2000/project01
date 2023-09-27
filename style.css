@@ -1,0 +1,15 @@
+#art-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.art-image {
+    max-width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.art-image:nth-child(3) {
+    border: 3px solid red;
+  }
